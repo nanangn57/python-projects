@@ -28,7 +28,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-config.json
+day_32_email_automation/config.json
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
