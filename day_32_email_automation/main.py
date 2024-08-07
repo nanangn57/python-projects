@@ -1,7 +1,7 @@
 import smtplib
 import json
 
-with open("config.json", "r") as f:
+with open("../config.json", "r") as f:
     config = json.load(f)
 
 my_email = config['email']
