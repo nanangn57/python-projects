@@ -25,7 +25,8 @@ if __name__ == "__main__":
 
         msg = MIMEMultipart()
         msg['From'] = my_email
-        msg['To'] = "anhnguyen.workmail@gmail.com"
+        recipients = ["anhnguyen.workmail@gmail.com", "HoangOda@gmail.com"]
+        msg['To'] = ", ".join(recipients)
 
         msg['Subject'] = "Dự báo hôm nay trời mưa"
         body = f"Hôm nay trời sẽ mưa vào những khung giờ sau: {', '.join(hour_rain)}.\n\n" \
