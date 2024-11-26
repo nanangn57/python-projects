@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     current_year = datetime.date.today().year
-    return render_template("index.html", current_year=current_year)
+    return render_template("index_practice_form.html", current_year=current_year)
 
 
 if __name__ == "__main__":

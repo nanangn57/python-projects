@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     post = Post()
-    return render_template("index.html", posts=post.blog_posts)
+    return render_template("index_practice_form.html", posts=post.blog_posts)
 
 
 @app.route('/blog/<blog_id>')
